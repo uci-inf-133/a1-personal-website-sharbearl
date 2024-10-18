@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+}
+
+h1.page-title {
+    font-size: 30px;
+    padding: 11px;
+    display: inline;
+    background-color:#fff4e6;
+}
+
+button.menu-button {
+    padding: 12.5px 30px;
+    padding-top: 20px;
+    margin: 0px;
+    font-size: 20px;
+    border: none;
+    transition: background-color .25s;
+}
+
+button.not-active {
+    background-color: #faebd7;
+    border: none;
+}
+
+button.not-active:hover {
+    background-color: #caaf8c;
+    cursor: pointer;
+}
+
+button.active {
+    background-color: #fbd8ab;
+}
+
+div#menu-bar {
+    position: sticky;
+    top: 0;
+    margin: 0px;
+    padding: 0px;
+    font-size: 0;
+    background-color:#faebd7;
+}
