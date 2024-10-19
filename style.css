@@ -5,8 +5,8 @@ body {
 h1.page-title {
     font-size: 30px;
     padding: 11px;
+    padding-right: 20%;
     display: inline;
-    background-color:#fff4e6;
 }
 
 button.menu-button {
