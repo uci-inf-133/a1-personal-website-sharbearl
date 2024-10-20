@@ -38,6 +38,7 @@ button.active {
     margin: 0px;
     padding: 0px;
     width: 100%;
+    opacity: 90%;
     font-size: 0;
     background-color:#faebd7;
 }
