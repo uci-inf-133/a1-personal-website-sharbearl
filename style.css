@@ -5,8 +5,8 @@ body {
 h1.page-title {
     font-size: 30px;
     padding: 11px;
-    padding-right: 20%;
     display: inline;
+    white-space: nowrap;
 }
 
 button.menu-button {
@@ -32,11 +32,21 @@ button.active {
     background-color: #fbd8ab;
 }
 
-div#menu-bar {
+#menu-bar {
     position: sticky;
     top: 0;
     margin: 0px;
     padding: 0px;
+    width: 100%;
     font-size: 0;
     background-color:#faebd7;
+}
+
+#table-buttons {
+    text-align: center;
+}
+
+#table-heading {
+    padding: 0px;
+    width: 1%;
 }
